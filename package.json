@@ -65,5 +65,11 @@
     "packages/wrapper",
     "packages/wrapper-react",
     "packages/examples"
-  ]
+  ],
+  "dependencies": {
+    "@grpc/grpc-js": "^1.11.1",
+    "axios": "^1.7.5",
+    "json-rpc-2.0": "^1.7.0",
+    "ws": "^8.18.0"
+  }
 }

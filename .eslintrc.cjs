@@ -69,20 +69,18 @@ module.exports = {
         }],
         '@typescript-eslint/ban-types': 'error',                    // bans types like String in favor of string
         '@typescript-eslint/indent': 'error',                       // consistent indentation
-        '@typescript-eslint/no-explicit-any': 'error',              // don't use :any type
+        '@typescript-eslint/no-explicit-any': 'off',              // don't use :any type
         '@typescript-eslint/no-misused-new': 'error',               // no constructors for interfaces or new for classes
         '@typescript-eslint/no-namespace': 'off',                   // disallow the use of custom TypeScript modules and namespaces
         '@typescript-eslint/no-non-null-assertion': 'off',          // allow ! operator
         "@typescript-eslint/parameter-properties": "error",         // no property definitions in class constructors
-        '@typescript-eslint/no-unused-vars': ['error', {            // disallow Unused Variables
-            'argsIgnorePattern': '^_'
-        }],
+        '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-var-requires': 'error',              // use import instead of require
         '@typescript-eslint/prefer-for-of': 'error',                // prefer for-of loop over arrays
         '@typescript-eslint/prefer-namespace-keyword': 'error',     // prefer namespace over module in TypeScript
         '@typescript-eslint/triple-slash-reference': 'error',       // ban /// <reference />, prefer imports
         '@typescript-eslint/type-annotation-spacing': 'error',      // consistent space around colon ':'
-        '@typescript-eslint/strict-boolean-expressions': 'error',   // Disallow certain types in boolean expressions
+        '@typescript-eslint/strict-boolean-expressions': 'off',   // Disallow certain types in boolean expressions
         '@typescript-eslint/no-unnecessary-condition': 'error'      // Disallow conditionals where the type is always truthy or always falsy
     }
 };

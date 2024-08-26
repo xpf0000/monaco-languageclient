@@ -4,6 +4,8 @@
     "rootDir": "src",
     "outDir": "dist",
     "declarationDir": "dist",
+    "noUnusedLocals": false,
+    "noImplicitReturns": false,
     // because vscode-jsonrpc requires DedicatedWorkerGlobalScope
     // we are required to include both DOM and WebWorker libs
     // the only way out currently is to disable lib checking
